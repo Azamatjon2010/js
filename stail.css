@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1020px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    background-color: aqua;
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: white;
+}
+.input{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid aqua;
+}
+.text-input{
+    margin-right: 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.inputs-wrapper{
+    margin-bottom: 24px;
+}
+.submit-btn{
+    padding: 12px 24px;
+    color: blue;
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.copy-btn{
+    padding: 12px 24px;
+    color: blue;
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding: 12px 24px;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+@media (max-width: 767px) {
+    .text-input{
+        margin-bottom: 12px;
+    }
+    .inputs-wrapper{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
